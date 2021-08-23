@@ -11,7 +11,9 @@ deploy:
   on:
     branch: master
   api_key:
-    secure: 451d16db-3bb2-4824-a04e-de9c52555826
+    secure: "j/rWn3hvfPFfGg3/Pi47GMXbTRqxFaXbhXw1H0HJz1OjogEKJBBl9kt7c/0XOnxzcitpx+btJt3K1vNR1fwWKW50RKy34e93knxITQGMk0+PAnLvIVwvklIwHDg2fsqpzju1PIWGw1S95Dhh8+R/jXd6rWVYcNWcuO/9g2xetX1KRhApcXQnudp/Ofz+z8IiFhP/xQ5I/97Pr8P3rvCaVfaLJOREboeWsShqdGHnIYmBBaiu/EMstbjz/GC/TgrO1IXDleo/owpz42Qo+ra+2b2BVNkJRpuiQSxI4yK5iuiR5V8i36WIOW9r5t5cvi+uImblEcNaE45hqIo7esobEcGmoWYzmEMIQuyk50zH3TkE0xi0xUxRSp1nTrnEBiO9aMeqif2Yfq1QeoGYJV/f7ZX70ZzQebheqltavfw/OnWqDTNdWHFigVxZQ/L1vNhpAn8ZtMC/53NPc8lpmiWQNXBxDZRv0n12SgHHnQf1vg6wpaSGNUbfCzMIPWINFQgVCOxstleixyChcG1bYeaBHyLwu6Iun1bbDDGAPU16P7o9s55p9Oj+5Z7yq4sPMtJ6zuyOsYyd0Sw7ckz7htoLc/NJs8l8j4+sn163y7QSlUG8KdPghsEhklTyGMOrT7GQPsf7SI+06DTie8kHaT3MpChVxt2y5tE8iefsLldLiE0="  
   app:
     master: repo-example
     production: repo-exaple-h
+
+    # $ travis encrypt $(heroku auth:token) --com
