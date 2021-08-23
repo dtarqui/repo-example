@@ -11,7 +11,7 @@ deploy:
   on:
     branch: master
   api_key:
-    secure: 5cdfe133-51e7-4abd-8ec7-f342be6ad9c4
+    secure: 451d16db-3bb2-4824-a04e-de9c52555826
   app:
     master: repo-example
     production: repo-exaple-h
