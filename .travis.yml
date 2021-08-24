@@ -1,10 +1,3 @@
-notifications:
-  webhooks: https://travis-for-jira-prod.toolsplus.app/travis/notifications?token=50ce1d9a-2267-343b-a6dd-18cccf3af5ce
-  on_success: always
-  on_failure: always
-  on_start: always
-  on_cancel: always
-  on_error: always
 language: java
 sudo: true
 dist: trusty
@@ -23,3 +16,8 @@ deploy:
     master: repo-example-h
     production: repo-exaple-h
 # travis encrypt $(heroku auth:token) --com
+notifications:
+  webhooks: https://travis-for-jira-prod.toolsplus.app/travis/notifications?token=50ce1d9a-2267-343b-a6dd-18cccf3af5ce
+  on_success: always
+  on_failure: always
+
