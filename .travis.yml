@@ -1,5 +1,5 @@
 language: java
-sudo: true
+# sudo: true [no effect]
 dist: trusty
 jdk: openjdk11
 before_install:
@@ -18,6 +18,8 @@ deploy:
 # travis encrypt $(heroku auth:token) --com
 notifications:
   webhooks: https://travis-for-jira-prod.toolsplus.app/travis/notifications?token=50ce1d9a-2267-343b-a6dd-18cccf3af5ce
-  on_success: always
-  on_failure: always
-
+    on_success: always
+    on_failure: always
+    on_start: always
+    on_cancel: always
+    on_error: always
