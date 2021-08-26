@@ -5,4 +5,5 @@ public class SomeObject {
     private String name;
     private String names;
     private String names1;
+    private String names2;
 }
