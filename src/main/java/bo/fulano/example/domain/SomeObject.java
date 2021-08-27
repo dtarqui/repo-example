@@ -9,7 +9,8 @@ public class SomeObject {
     private String names3;
     private String names4;
     private String names5;
+    private String names6;
 
 
-    
+
 }
