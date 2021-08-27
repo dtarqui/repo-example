@@ -8,4 +8,5 @@ public class SomeObject {
     private String names2;
     private String names3;
     private String names4;
+    private String names5;
 }
