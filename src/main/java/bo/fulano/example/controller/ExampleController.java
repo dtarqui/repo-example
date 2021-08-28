@@ -12,5 +12,8 @@ public class ExampleController {
     @RequestMapping(value = "/", method = RequestMethod.GET, produces = MediaType.TEXT_PLAIN_VALUE)
     public String getAssuranceByUserId() {
         return "Hello World. Now It's " + Instant.now().toString();
+
+
+
     }
 }
